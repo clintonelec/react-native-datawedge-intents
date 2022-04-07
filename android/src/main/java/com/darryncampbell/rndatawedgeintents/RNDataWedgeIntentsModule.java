@@ -298,6 +298,8 @@ public class RNDataWedgeIntentsModule extends ReactContextBaseJavaModule impleme
                     returnBundle.putString(key, obj.getString(key));
                 else if (key.equalsIgnoreCase("keystroke_output_enabled"))
                     returnBundle.putString(key, obj.getString(key));
+                else if (key.equalsIgnoreCase("scanner_input_enabled"))
+                    returnBundle.putString(key, obj.getString(key));
                 else if (obj.get(key) instanceof Boolean)
                     returnBundle.putBoolean(key, obj.getBoolean(key));
                 else if (obj.get(key) instanceof Integer)
